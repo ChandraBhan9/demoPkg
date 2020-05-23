@@ -9,7 +9,7 @@ class EnvCheckServiceProvider extends ServiceProvider
 {
     
     public function boot()
-    {   require_once __DIR__ . '/vendor/autoload.php';
+    {   require_once __DIR__ . '../vendor/autoload.php';
         if ($this->app->runningInConsole()) {
             $this->commands([
                 EnvCheckCommand::class,
