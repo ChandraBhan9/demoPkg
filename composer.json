@@ -1,0 +1,29 @@
+{
+    "name": "chandra9999/env-checker",
+    "description": "This will check invalid use of env variables.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chandra Bhan Singh Chouhan",
+            "email": "cb957146@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Chandra9999\\EnvChecker\\": "src/"
+        }
+    },
+
+    "require": {
+        "jsefton/php-dotenv-parser": "dev-master"
+    },
+    "extra": {
+        "laravel": {
+          "providers": [
+            "Chandra9999\\EnvChecker\\EnvCheckServiceProvider"
+          ]
+        }
+      }
+}
