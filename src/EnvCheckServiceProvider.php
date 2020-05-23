@@ -3,7 +3,7 @@
 namespace Chandra9999\EnvChecker;
 
 use Illuminate\Support\ServiceProvider;
-use Chandra\EnvChecker\Console\Commands\EnvCheckCommand;
+use Chandra9999\EnvChecker\Console\Commands\EnvCheckCommand;
 
 class EnvCheckServiceProvider extends ServiceProvider
 {
